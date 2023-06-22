@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Manrope', sans-serif;
+}
+.top-bar{
+background-color: #c9431c;
+display: flex;
+justify-content: space-between;
+padding: 10px 72px;
+}
+body{
+  margin: 0;
+}
+.bar-contact a {
+color: white;
+text-decoration: none;
+
+}
+.bar-contact a span {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.bar-cta p {
+  color: white;
+  margin: 0;
+}
+.bar-cta p a {
+  color: white;
+}
+.bar-cta p a:hover {
+  color: black;
+}
+.bar-localisation ul {
+color: white;
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+gap: 20px;
+}
+.bar-localisation ul li span {
+  vertical-align: middle;
+}
