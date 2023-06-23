@@ -2,16 +2,19 @@ import './App.css'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Nav-Bar'
 import TopBar from './components/TopBar'
+import Categories from './components/CategorySection'
+import DealsSection from './components/DealsSection'
 
-function App() {
+function App(){
 
   return (
-    <>
+    <div>
       <TopBar/>
-    <Navbar/>
-    <HeroSection/>
-    </>
-  
+      <Navbar/>
+      <HeroSection/>
+      <Categories />
+      <DealsSection/>
+    </div>
   )
 }
 

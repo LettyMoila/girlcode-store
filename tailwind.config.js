@@ -11,7 +11,7 @@ export default {
       },
       colors:
       {
-        'girlcode-pink': "violet"
+        'girlcode-pink': "#e94154"
       }
     },
   },
