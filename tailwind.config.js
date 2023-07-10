@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-section': "url('/src/assets/heroBackground.jpg')"
+        'hero-section': "url('/src/assets/heroBackground.jpg')",
+        'page-header': "url('/src/assets/cat-header.jpg')",
       },
       colors:
       {
