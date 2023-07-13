@@ -7,7 +7,7 @@ const Product = () =>{
     let [prodInfo, setProdInfo] = useState({})
 
     useEffect(()=> {
-        fetch(`$(import.meta.env.VITE_API_URL)/product/${prodSlug}`)
+        fetch(`${import.meta.env.VITE_API_URL}/product/${prodSlug}`)
             .then(resp >= resp.json())
             .then(resp => {                                                                                                                                
                 setProdInfo(resp)
