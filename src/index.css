@@ -5,19 +5,17 @@
 @tailwind utilities;
 
 *{
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope', 'sans-serif';
 }
 .top-bar{
-background-color: #c9431c;
-display: flex;
-justify-content: space-between;
-padding: 10px 72px;
+background-color: #e94154;
+padding: 10px 0;
 }
 body{
   margin: 0;
 }
 .bar-contact a {
-color: white;
+color: #fff;
 text-decoration: none;
 
 }
@@ -27,7 +25,6 @@ text-decoration: none;
 }
 .bar-cta p {
   color: white;
-  margin: 0;
 }
 .bar-cta p a {
   color: white;
@@ -41,13 +38,13 @@ margin: 0;
 padding: 0;
 list-style: none;
 display: flex;
-gap: 20px;
+gap: 24px;
 }
 .bar-localisation ul li span {
   vertical-align: middle;
 }
 .btn{
-  @apply py-2 px-4 font-bold rounded-1xl  black w-fit;
+  @apply py-2 px-4 font-bold rounded-3xl  block w-fit;
 }
 .btn-atc{
   @apply btn border border-black hover:bg-girlcode-pink hover:text-white hover:border-girlcode-pink;
