@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from ""
 
 const ProductItem = ({prod_info}) =>{
     const [intNum, setIntNum] = useState('')
