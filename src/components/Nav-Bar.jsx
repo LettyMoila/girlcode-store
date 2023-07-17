@@ -29,11 +29,11 @@ const Navbar = () =>{
                     <form  className="bg-slate-200 w-fit py-1.5 px-5 rounded-3xl">
                         <input type="text" name="search" placeholder="Search Products" className="outline-0 bg-transparent"/>
                         <button>
-                            <span className="material-symbol-outlined align-middle">search</span>
+                        <span className="material-symbols-outlined align-middle">search</span>
                         </button>
                     </form>
-                    <a href="" className="font-bold"><span className="material-symbols-outlined align-middle"></span>Account</a>
-                    <Link to="/cart" className="font-bold"><span className="material-symbols-outlined align-middle"></span>Cart</Link>
+                    <a href="" className="font-bold"><span className="material-symbols-outlined align-middle">person</span>Account</a>
+                    <Link to="/cart" className="font-bold"><span className="material-symbols-outlined align-middle">shopping_cart_checkout</span>Cart</Link>
                 </div>
             </div>
         </div>

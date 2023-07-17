@@ -6,7 +6,7 @@ const DealsSection = () =>{
 
     useEffect(()=> {
         fetch(`${import.meta.env.VITE_API_URL}/products`)
-            .then(resp >= resp.json())
+            .then(resp => resp.json())
             .then(resp => {                                                                                                                                
                 setProdList(resp.products)
                 console.log(resp)
