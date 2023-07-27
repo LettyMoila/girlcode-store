@@ -2,10 +2,11 @@ import { useEffect, useState } from 'react';
 import { Link } from "react-router-dom"
 
 const ProductItem = ({prod_info}) =>{
-    const [intNum, setIntNum] = useState('')
-    const [centNum, setCentNum] = useState('')
 
-    const prodPrice = ({price}) =>{
+    const prodPrice = ({price}) =>{   
+        const [intNum, setIntNum] = useState('')
+        const [centNum, setCentNum] = useState('')
+
          useEffect(()=>{
         if(price){
             const priceArr = price.toString().split('.')

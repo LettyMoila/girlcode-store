@@ -56,7 +56,7 @@ const Cart = () => {
     return(
         <MainLayout>
             <section className="pt-20">
-                <div className="cont mx-auto">
+                <div className="container mx-auto">
                     <div className="pb-5">
                         {
                             currCart.map(currProd => (
@@ -64,7 +64,7 @@ const Cart = () => {
                                     <figure className="w-48">
                                         <img src={`${import.meta.env.VITE_API_URL}/image/${currProd.prod_img}`} alt={currProd.prod_name}/>
                                     </figure>
-                                    <div className="gro">
+                                    <div className="grow">
                                         <h3 className="text-xl font-bold uppercase">{currProd.prod_name}</h3>
                                         <p>{currProd.prod_desc}</p>
                                     </div>

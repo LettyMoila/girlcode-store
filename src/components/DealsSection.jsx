@@ -23,7 +23,7 @@ const DealsSection = () =>{
                 <h1 className="text-2xl font-extrabold">Todays Best Deals For You!</h1>
                 </div>
 
-                <div className="grid gid-cols-3 gap-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-8">
                     {
                         prodList.map(prod =>(
                             <ProductItem key={prod.id} prod_info={prod}/>
